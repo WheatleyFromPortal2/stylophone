@@ -2203,6 +2203,26 @@
 		)
 		(uuid "ac7e4f17-b6a7-4190-a6c5-dc2695c635c8")
 	)
+	(text_box "decoupling capacitor\n\n<-"
+		(exclude_from_sim no)
+		(at 201.93 120.65 0)
+		(size 16.51 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b7ddaf01-4d58-4001-b3d2-975529eb363e")
+	)
 	(junction
 		(at 201.93 90.17)
 		(diameter 0)
@@ -2238,6 +2258,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36748435-432e-4284-83e2-8da1c030e077")
+	)
+	(junction
+		(at 190.5 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4270acdd-4baa-465a-8963-2ea40cbd8626")
 	)
 	(junction
 		(at 173.99 90.17)
@@ -3539,6 +3565,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 123.19) (xy 198.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec22475e-3b85-42b4-b273-a1f6217e844c")
+	)
+	(wire
+		(pts
 			(xy 85.09 86.36) (xy 104.14 86.36)
 		)
 		(stroke
@@ -3636,6 +3672,16 @@
 			(type default)
 		)
 		(uuid "fa6dc53a-8a3a-4e59-b075-78275fd55fb2")
+	)
+	(wire
+		(pts
+			(xy 190.5 123.19) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faab6f2f-f652-4823-8df9-6d4f10ba1d69")
 	)
 	(wire
 		(pts
@@ -11961,7 +12007,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 127 180)
+		(at 194.31 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11972,29 +12018,27 @@
 		(fields_autoplaced yes)
 		(uuid "ca77c34f-fd52-43bc-9415-a5f9b5b9caef")
 		(property "Reference" "C4"
-			(at 194.31 125.7299 0)
+			(at 194.31 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "0.1 μF"
-			(at 194.31 128.2699 0)
+			(at 194.31 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3"
-			(at 189.5348 123.19 0)
+			(at 190.5 130.5052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12005,7 +12049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 127 0)
+			(at 194.31 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12016,7 +12060,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 127 0)
+			(at 194.31 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12778,6 +12822,84 @@
 			(project "stylophone"
 				(path "/585a5c70-ee35-4e08-a3c1-f9b174e000cc"
 					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e38bed92-d5b5-4201-888c-7da3507c5e59")
+		(property "Reference" "#PWR011"
+			(at 198.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f997022-b281-421e-beae-dde223bc1f8d")
+		)
+		(instances
+			(project "stylophone"
+				(path "/585a5c70-ee35-4e08-a3c1-f9b174e000cc"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
