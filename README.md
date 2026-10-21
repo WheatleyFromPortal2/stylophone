@@ -4,6 +4,8 @@ custom stylophone PCB
 
 using [this guide](https://www.allaboutcircuits.com/projects/create-your-own-stylus-controlled-synthesizer/)
 
+PCB used will be 20cm by 15cm
+
 # TODO
 
 1. [ ] test concept on a breadboard
