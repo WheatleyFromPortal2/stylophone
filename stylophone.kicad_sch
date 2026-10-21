@@ -6740,7 +6740,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C_3"
 			(at 92.71 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6819,7 +6819,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A"
+		(property "Value" "A_4"
 			(at 204.47 56.6419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6898,7 +6898,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_3"
 			(at 92.71 69.3419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6977,7 +6977,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D#"
+		(property "Value" "D#_4"
 			(at 176.53 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7255,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_4"
 			(at 148.59 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7450,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "F"
+		(property "Value" "F_4"
 			(at 176.53 69.3419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,7 +7607,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "F#"
+		(property "Value" "F#_4"
 			(at 176.53 82.0419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +7843,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "E"
+		(property "Value" "E_3"
 			(at 92.71 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8393,7 +8393,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "G_3"
 			(at 120.65 69.3419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8940,7 +8940,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B"
+		(property "Value" "B_3"
 			(at 148.59 56.6419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9019,7 +9019,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A"
+		(property "Value" "A_3"
 			(at 120.65 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9098,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D#"
+		(property "Value" "D#_3"
 			(at 92.71 82.0419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9530,7 +9530,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "E"
+		(property "Value" "E_4"
 			(at 176.53 56.6419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9689,7 +9689,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B"
+		(property "Value" "B_4"
 			(at 204.47 82.0419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10156,7 +10156,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "G_4"
 			(at 176.53 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10856,7 +10856,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A#"
+		(property "Value" "A#_4"
 			(at 204.47 69.3419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11129,7 +11129,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C_5"
 			(at 204.47 94.7419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +11324,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "F"
+		(property "Value" "F_3"
 			(at 120.65 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11751,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C_4"
 			(at 148.59 69.3419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +12108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "F#"
+		(property "Value" "F#_3"
 			(at 120.65 56.6419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12187,7 +12187,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "G#"
+		(property "Value" "G#_3"
 			(at 120.65 82.0419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12344,7 +12344,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C#"
+		(property "Value" "C#_4"
 			(at 148.59 82.0419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12655,7 +12655,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A#"
+		(property "Value" "A#_3"
 			(at 148.59 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13090,7 +13090,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C#"
+		(property "Value" "C#_3"
 			(at 92.71 56.6419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13169,7 +13169,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "G#"
+		(property "Value" "G#_4"
 			(at 204.47 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
