@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Stylopads") (type "KiCad") (uri "${KIPRJMOD}/Stylopads.pretty") (options "") (descr "custom pad library for stylophone"))
+)
