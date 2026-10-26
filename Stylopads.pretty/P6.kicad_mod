@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "96d6bf90-ad80-487d-a643-f7fe36975adb")
+		(uuid "79ee80c9-83d0-42c6-8dc6-708deef049f4")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9fb6c756-f4eb-41d4-9ff6-a806061f8da5")
+		(uuid "3e9f4202-0857-4529-827f-f87063509d37")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d47f3005-8ee1-4ed8-b293-0cc22b857e02")
+		(uuid "a8413070-abc6-4e6a-9b6e-c07f69621d9d")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c309b046-a99f-4630-a0d9-83a735f8b319")
+		(uuid "23f07eca-97d3-4893-9fca-ba07b1b2e598")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f664433b-3e70-4194-9701-67da5449a50d")
+		(uuid "843a9c8b-f037-43ab-a3d7-22e12999b10b")
 		(effects
 			(font
 				(size 1 1)
@@ -70,11 +70,11 @@
 	(pad "1" smd roundrect
 		(at 5.5 6.5)
 		(size 11 13)
-		(layers "B.Cu" "B.Mask")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.18)
 		(chamfer bottom_left)
-		(uuid "dbea62bf-fbfa-4fe4-aeb7-dfdd26e25dcf")
+		(uuid "6573909d-a7fc-4bdd-8425-e6613c85ee70")
 	)
 	(embedded_fonts no)
 )
