@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bfaae4f9-7897-4e8b-ae17-08faffe5ceff")
+		(uuid "825d9b71-94fa-4a94-bb6a-8478011f5aa2")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "879ca494-2eb7-4af3-a8b7-8b4af9b88598")
+		(uuid "25a60471-5250-4323-8ede-ab1865af04dd")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f31bd14b-c06a-475e-9ef4-ff09f250329c")
+		(uuid "dfed4e34-9017-4843-bfbf-3dd5e2ca977d")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4cd4321a-ecd3-41fd-9233-37669cbdae75")
+		(uuid "17150ef2-2d4a-48af-a22c-2333429e3373")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6306d87e-de94-4338-988f-6baaa23a839a")
+		(uuid "bcb0abea-ec06-4556-b723-6c1ffa52bfa4")
 		(effects
 			(font
 				(size 1 1)
@@ -78,14 +78,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -5.5 -0.76144) (xy -1.5 -0.76144) (xy 0.5 -2.76144) (xy 0.5 -15.76144) (xy 5.5 -15.76144) (xy 5.5 19.23856)
-					(xy -5.5 19.23856)
+					(xy -5.5 -2) (xy -1.5 -2) (xy 0.5 -4) (xy 0.5 -16) (xy 5.5 -16) (xy 5.5 19) (xy -5.5 19)
 				)
-				(width 0.2)
+				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "11e23aa2-c3b9-4d99-8e6f-9689a81e4adf")
+		(uuid "7ba26f68-ec18-4eab-8a3e-5547df42c467")
 	)
 	(embedded_fonts no)
 )
