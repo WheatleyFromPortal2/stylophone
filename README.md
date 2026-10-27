@@ -28,11 +28,10 @@ each key has its own footprint (named P1-P7)
 
 # TODO
 
-1. [ ] test concept on a breadboard
-2. [ ] add custom footprints for `TP4`-`TP28` so that they look like a keyboard in the PCB
+1. [x] add custom footprints for `TP4`-`TP28` so that they look like a keyboard in the PCB
 	- plan pad types for each key by annotating the example PCB
-3. [ ] layout PCB
-4. [ ] build BOM and order correct parts
-5. [ ] order PCB
-6. [ ] assemble PCB
-7. [ ] test PCB
+2. [ ] layout PCB
+3. [ ] build BOM and order correct parts
+4. [ ] order PCB
+5. [ ] assemble PCB
+6. [ ] test PCB

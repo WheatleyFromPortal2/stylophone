@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "70ca4f21-acc6-435c-a1b6-cdd246c1f17b")
+		(uuid "c195feb5-3fee-4abb-8dc9-3ba78e607ff5")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3b4ef44c-f860-4eb9-9fa5-4426755efde9")
+		(uuid "66657ee2-d9f6-429c-950c-fe430aa9efaf")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5047fc32-dc9a-423b-a11d-058b27369d2c")
+		(uuid "77929cc9-2098-4fa5-a94e-e86437536c02")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ffb8a614-0ab5-4afa-b056-649e47fa8cc1")
+		(uuid "c07e051f-40d6-422e-83a0-0d7aa5135cf2")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9d749ea2-b1d7-4291-8c7f-e1650c0ff81c")
+		(uuid "27f33941-1a09-49ce-a7de-7b381afcfff3")
 		(effects
 			(font
 				(size 1 1)
@@ -68,10 +68,10 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 5.5 6.5)
+		(at 0 0)
 		(size 11 13)
 		(layers "F.Cu" "F.Mask")
-		(uuid "d89e99cd-2675-46c0-a644-2b3a46f738eb")
+		(uuid "6cdd22e9-3ce0-4156-8a9b-1c8197bd7ee3")
 	)
 	(embedded_fonts no)
 )
