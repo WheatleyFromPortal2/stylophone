@@ -12,8 +12,8 @@ PCB used will be 200mm by 150mm
 
 each key has its own footprint (named P1-P7)
 
-- 10.5mm border on the outside of the keys
-- 1mm border between keys (there are 14 borders)
+- 7mm border on the outside of the keys
+- 1.5mm border between keys (there are 14 borders)
 - every key is 11mm wide (there are 15 full keys across)
 - each chamfer is 2mm x/y
 - full-height keys are 35mm tall
