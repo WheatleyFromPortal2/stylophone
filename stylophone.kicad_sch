@@ -2086,7 +2086,7 @@
 	)
 	(text_box "this 555 is running in astable mode\nthe frequency is controlled by changing the resistance between pins 6 and 7 using the network of resistors and potentiometers"
 		(exclude_from_sim no)
-		(at 194.31 98.5793 0)
+		(at 208.28 97.3093 0)
 		(size 29.21 18.2607)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2225,6 +2225,12 @@
 		(uuid "b7ddaf01-4d58-4001-b3d2-975529eb363e")
 	)
 	(junction
+		(at 198.12 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0999f1e7-1f32-4faf-9209-895a556e9233")
+	)
+	(junction
 		(at 201.93 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2351,6 +2357,12 @@
 		(uuid "8f2adbd8-d7d0-47aa-8115-a08627663f78")
 	)
 	(junction
+		(at 172.72 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4829b17-3198-47e6-9574-e0f6d1aa104c")
+	)
+	(junction
 		(at 146.05 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2385,12 +2397,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6291cdb-d81d-4fd1-a2ac-27aba44e8cb8")
-	)
-	(junction
-		(at 172.72 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea28106b-f86c-4184-a244-017c6bb4cb9d")
 	)
 	(junction
 		(at 172.72 146.05)
@@ -2513,6 +2519,16 @@
 			(type default)
 		)
 		(uuid "0e2207c1-3baa-4b2c-b0f0-a883999d6524")
+	)
+	(wire
+		(pts
+			(xy 179.07 115.57) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efc6391-7739-47b3-9ab3-2911d59f7701")
 	)
 	(wire
 		(pts
@@ -3036,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 115.57) (xy 198.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa310bb-039f-41a0-8afd-50ddb2902fb9")
+	)
+	(wire
+		(pts
 			(xy 88.9 52.07) (xy 90.17 52.07)
 		)
 		(stroke
@@ -3183,6 +3209,16 @@
 			(type default)
 		)
 		(uuid "92ca4610-63e7-4e59-ac64-53715bec9be9")
+	)
+	(wire
+		(pts
+			(xy 143.51 143.51) (xy 152.4 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9378dc11-37ce-47d2-9db7-470a796d75ea")
 	)
 	(wire
 		(pts
@@ -3446,16 +3482,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 143.51) (xy 172.72 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7152f6e-0d83-44de-aa11-06c7881ba9e8")
-	)
-	(wire
-		(pts
 			(xy 161.29 128.27) (xy 161.29 138.43)
 		)
 		(stroke
@@ -3526,6 +3552,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 127) (xy 179.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38f8959-ca76-4c50-a20d-ba5060c1c530")
+	)
+	(wire
+		(pts
 			(xy 172.72 143.51) (xy 177.8 143.51)
 		)
 		(stroke
@@ -3566,16 +3602,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 198.12 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec22475e-3b85-42b4-b273-a1f6217e844c")
-	)
-	(wire
-		(pts
 			(xy 85.09 86.36) (xy 104.14 86.36)
 		)
 		(stroke
@@ -3583,6 +3609,16 @@
 			(type default)
 		)
 		(uuid "ec51987a-16a7-44a0-9e15-5c0e42b1ae33")
+	)
+	(wire
+		(pts
+			(xy 160.02 143.51) (xy 172.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee77c48b-7b1b-4167-b8a5-b0a39bf8f3a0")
 	)
 	(wire
 		(pts
@@ -3643,6 +3679,16 @@
 			(type default)
 		)
 		(uuid "f6b0474a-c9a1-41b9-bd59-a53fa721cb8f")
+	)
+	(wire
+		(pts
+			(xy 172.72 156.21) (xy 172.72 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7da0222-d44a-4cb5-a1f3-76aa2d76f9f7")
 	)
 	(wire
 		(pts
@@ -7118,6 +7164,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 156.21 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ccb2875-ad64-47a2-956b-1db1d3a0f857")
+		(property "Reference" "R6"
+			(at 156.21 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 156.21 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 156.464 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 156.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e739fd71-e771-401a-90a9-c8bca8eb477c")
+		)
+		(pin "2"
+			(uuid "19f0fe54-59a3-4254-b0f5-4b776f12fcf6")
+		)
+		(instances
+			(project "stylophone"
+				(path "/585a5c70-ee35-4e08-a3c1-f9b174e000cc"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 196.85 38.1 90)
 		(unit 1)
@@ -7307,6 +7433,88 @@
 			(project "stylophone"
 				(path "/585a5c70-ee35-4e08-a3c1-f9b174e000cc"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 198.12 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a2729b4-9465-40e0-8920-f56510ac55d1")
+		(property "Reference" "R7"
+			(at 200.66 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 200.66 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 199.136 112.014 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12b8eda6-bc8d-4e0b-8a29-d74444b6e2be")
+		)
+		(pin "2"
+			(uuid "7b5cf940-f937-4603-b287-42342a8b13e2")
+		)
+		(instances
+			(project "stylophone"
+				(path "/585a5c70-ee35-4e08-a3c1-f9b174e000cc"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8295,7 +8503,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 156.21 0)
+		(at 172.72 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8306,7 +8514,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a8fdb75-c24e-409d-8d2c-f47f2daa14dd")
 		(property "Reference" "#PWR03"
-			(at 172.72 162.56 0)
+			(at 172.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8317,7 +8525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 161.29 0)
+			(at 172.72 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8327,7 +8535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 156.21 0)
+			(at 172.72 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8338,7 +8546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 156.21 0)
+			(at 172.72 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8349,7 +8557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 156.21 0)
+			(at 172.72 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,84 +10259,6 @@
 			(project "stylophone"
 				(path "/585a5c70-ee35-4e08-a3c1-f9b174e000cc"
 					(reference "RV6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "785c8f1f-8110-4879-9383-6bae9f20e023")
-		(property "Reference" "#PWR06"
-			(at 179.07 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb0ff621-c6c9-4303-866f-3dd082a56fc2")
-		)
-		(instances
-			(project "stylophone"
-				(path "/585a5c70-ee35-4e08-a3c1-f9b174e000cc"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12830,7 +12960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 123.19 180)
+		(at 198.12 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12841,7 +12971,7 @@
 		(fields_autoplaced yes)
 		(uuid "e38bed92-d5b5-4201-888c-7da3507c5e59")
 		(property "Reference" "#PWR011"
-			(at 198.12 116.84 0)
+			(at 198.12 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12852,7 +12982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 118.11 0)
+			(at 198.12 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12862,7 +12992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 123.19 0)
+			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12873,7 +13003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 123.19 0)
+			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12884,7 +13014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 123.19 0)
+			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
