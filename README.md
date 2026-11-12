@@ -30,8 +30,10 @@ each key has its own footprint (named P1-P7)
 
 1. [x] add custom footprints for `TP4`-`TP28` so that they look like a keyboard in the PCB
 	- plan pad types for each key by annotating the example PCB
-2. [ ] layout PCB
-3. [ ] build BOM and order correct parts
-4. [ ] order PCB
+2. [x] layout PCB
+3. [x] build BOM and order correct parts
+4. [x] route PCB
 5. [ ] assemble PCB
+    - need to make a stylus with a solder ball at the end
+    - an alligator clip is way to abrasive and wears through the copper layer quickly
 6. [ ] test PCB
